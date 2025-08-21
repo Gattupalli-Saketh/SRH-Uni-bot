@@ -1,5 +1,5 @@
 ollama
 numpy
-chromadb
+chromadb==0.3.29
 streamlit
 sentence-transformers
