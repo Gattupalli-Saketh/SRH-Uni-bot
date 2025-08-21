@@ -1,1 +1,5 @@
-ollama 
+ollama
+numpy
+chromadb
+streamlit
+sentence-transformers
