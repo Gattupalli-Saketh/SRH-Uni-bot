@@ -8,7 +8,7 @@ from typing import List, Tuple, Dict, Any
 
 # Import your RAG system components
 try:
-    from front import RAGConfig, RAGSystem  # Assuming 'front' is your main RAG file
+    from .front import RAGConfig, RAGSystem  # Assuming 'front' is your main RAG file
 except ImportError as e:
     st.error(f"Could not import RAG components: {e}")
     st.stop()
